@@ -2,13 +2,12 @@
 	"name": "Excel1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Copia de titanic",
+			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "titanic1",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "titanic1.csv",

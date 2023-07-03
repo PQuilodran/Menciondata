@@ -8,13 +8,14 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "titanic1",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "titanic1.csv",
 				"container": "ctr1"
 			},
 			"range": "A1",
-			"nullValue": "10"
+			"firstRowAsHeader": false
 		},
 		"schema": []
 	}

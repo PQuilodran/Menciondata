@@ -1,0 +1,11 @@
+{
+	"name": "titanic2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://menalmacen.blob.core.windows.net/ctr1",
+			"authenticationType": "Anonymous"
+		}
+	}
+}

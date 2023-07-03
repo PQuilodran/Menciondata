@@ -1,0 +1,9 @@
+{
+	"name": "MencionFinal",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7e6f5e54-1876-4642-81db-ac59740e9bf8",
+		"tenantId": "0d84973b-8bb7-4458-9c29-21fab46f152c"
+	}
+}

@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "titanic1.csv",
 				"container": "ctr1"
 			},
 			"range": "A1",

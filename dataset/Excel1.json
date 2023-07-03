@@ -2,7 +2,7 @@
 	"name": "Excel1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "titanic",
+			"referenceName": "Sftp1",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -12,10 +12,8 @@
 		"type": "Excel",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"container": "ctr1"
-			},
-			"sheetIndex": 0
+				"type": "SftpLocation"
+			}
 		},
 		"schema": []
 	}

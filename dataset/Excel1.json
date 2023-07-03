@@ -11,7 +11,9 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"container": "ctr1"
-			}
+			},
+			"range": "A1",
+			"nullValue": "10"
 		},
 		"schema": []
 	}

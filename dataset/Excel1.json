@@ -1,0 +1,22 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "titanic",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "titanic"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "ctr1"
+			},
+			"sheetIndex": 0
+		},
+		"schema": []
+	}
+}
